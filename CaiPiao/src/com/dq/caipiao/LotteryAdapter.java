@@ -59,7 +59,6 @@ public class LotteryAdapter extends BaseAdapter{
 			holder = (ViewHolder) convertView.getTag();
 		}
 		LotteryBean bean=beans.get(position);
-		Log.d("vv", bean.toString());
 		if (bean!=null) {
 			holder.tv1.setText(bean.getRed1());
 			holder.tv2.setText(bean.getRed2());
